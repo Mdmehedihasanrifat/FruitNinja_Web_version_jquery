@@ -1,0 +1,149 @@
+
+html{
+    height: 100%;
+    background:radial-gradient( circle,white,grey);
+
+
+
+}
+
+h1{
+    text-align: center;
+ font-size: 30px;
+
+}
+#container{
+    height: 700px;
+    width: 850px;
+
+    background-color:#0099ff;
+    margin: 100px auto;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow:0px 4px 0px  0px steelblue ;
+    position: relative;
+
+}
+#score{
+
+    background:#fff0a8;
+    position: absolute;
+    color:purple;
+    border-radius: 10px;
+    padding: 10px;
+    left:780px;
+}
+#correct{
+
+    background:green;
+    position: absolute;
+    color:white;
+    border-radius: 10px;
+    padding: 10px;
+    left:280px;
+    display:none;
+
+}
+#Wrong{
+
+    background:red;
+    position: absolute;
+    color:white;
+    border-radius: 10px;
+    padding: 10px;
+    left:140px;
+    display:none;
+
+}
+#Question{
+    height: 400px;
+    width:600px;
+
+    margin: 60px auto 10px auto;
+    background: white;
+    color: white;
+    font-size: 150px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 30px;
+    font-family: cursive,sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+#line{
+    height: 50px;
+    width: 450px;
+    margin: 10px auto ;
+    background: darkorchid;
+    color: black;
+    text-align: center;
+    border-radius: 30px;
+
+    font-family: cursive,sans-serif;
+
+}
+#line h2{
+    padding-top: 10px;
+
+}
+
+
+
+#start{
+
+    background:green;
+    position: absolute;
+    color:black;
+    border-radius: 10px;
+    padding: 10px;
+    left:380px;
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 5px 0px black;
+}
+
+#Time{
+    width: 152px;
+    padding: 10px;
+
+    float: right;
+    background: green;
+    box-shadow: 0px 5px 5px 0px black;
+    border-radius: 10px;
+    display: none;
+
+}
+#gameover{
+    height: 300px;
+    width: 650px;
+
+    background: linear-gradient(orangered,orange);
+    position: absolute;
+    top: 150px;
+    left:100px;
+    font-size: 30px;
+    text-transform: uppercase;
+    box-shadow: 5px 0px 5px 0px orange;
+    text-align: center;
+    display: none;
+
+
+}
+#start:hover{
+
+    background: #fff0a8;
+}
+#life{
+    width: 100px;
+    background:#fff0a8;
+    position: absolute;
+    color:purple;
+    border-radius: 10px;
+padding: 10px;
+    left:10px;
+    display: none;
+}
+#furits1{
+
+    display: none;
+    position: absolute;
+}
